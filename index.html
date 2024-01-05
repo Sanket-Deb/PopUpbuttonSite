@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pop-Up Site</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 style="display: flex; justify-content:center; padding-top:100px;">THIS IS A POP_UP BUTTON SITE</h1>
+  <div class="container">
+    <img src="baseImg.jpg" alt="BaseImg"/>
+    <button type="submit" class="popUpBtn" onclick="openPopup()">I_POP</button>
+    <div class="popup" id="popup">
+      <img src="popUpImg.jpg">
+      <button type="button" onclick="closePopup()">REVERSE POP</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
